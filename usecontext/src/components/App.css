@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0fd6f;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+div {
+  margin: 1rem 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #887272;
+  border-radius: 3px;
+  width: 10rem;
+}
+
+.button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #c3a0c3;
+  color: white;
+  cursor: pointer;
+}
+.headings{
+  text-align: center;
+  font-weight: bold;
+  color: #8d2d85;
+  background-color: rgb(78, 208, 234);
+  margin: 2rem;
+}
